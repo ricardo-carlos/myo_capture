@@ -36,7 +36,7 @@ m.add_imu_handler(proc_imu)
 m.connect()
 
 try:
-	print "\nSampling..."
+	print "\nSampling... (^C to stop)"
 	timestamp = time.strftime('%Y-%m-%d %H:%M:%S')
 	while True:
 		m.run()
