@@ -17,6 +17,8 @@ Run this to set the device permissions for the USB dongle on GNU/Linux systems:
 - NumPy 
 - h5py
 
+I used [dzhu's myo-raw](https://github.com/dzhu/myo-raw) to get data from the sensor, just changed the IMU's sampling rate and included his code.
+
 # Data capture
 
 Just run capture/capture.py and press ^C to stop.
@@ -28,3 +30,4 @@ It might be a good idea to install [HDFView and the command line utils](https://
 `$ sudo apt-get install hdf5-tools hdfview `
 
 Check the example in read/read.py to work with this format from python. 
+
