@@ -6,8 +6,7 @@ import h5py
 
 import matplotlib.pyplot as plt
 
-file    = 'data.hdf5'
-
+file  = 'data.hdf5'
 group = 'samples'
 
 with h5py.File( file ) as f:
